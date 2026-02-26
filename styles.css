@@ -652,6 +652,18 @@ footer p {
     font-size: 14px;
 }
 
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 2px;
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.85);
+    border-bottom-color: #ffffff;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-title {
